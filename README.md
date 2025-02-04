@@ -18,4 +18,4 @@
 
 ## GridSearchCV Model
 
-### For the final model, LassoCV was used for a GridSearchCV model. To improve from previous models, more outliers were removed from the target variable that could have been skewing the data. More variables were also considered for x. This created a slightly lower RMSE compared to the previous models, though it was still quite high and more polynomial features being considered only added to the model's complexity.
+### For the final model, LassoCV was used for a GridSearchCV model. To improve from previous models, more outliers were removed from the target variable that could have been skewing the data. More variables were also considered for x. This created a slightly lower RMSE compared to the previous models, though it was still quite high and more polynomial features being considered only added to the model's complexity without much improvement in terms of accuracy in its predictions. 
